@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* public */
+body{
+width: 100vw;
+max-width: 100%;
+margin: 0 auto;
+background-image: url(../img/oriental-tiles.png);
+background-repeat: repeat;
+text-align: center;
+}
+
+section#main{
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 0 1rem;
+}
+
+h3.title{
+    margin: 2rem auto;
+    border-bottom: 2px solid black;
+}
+
+.t_left{
+    text-align: left;
+}
+
+li{
+    list-style: disc;
+}
+
+ul{
+    text-align: left;
+    padding: 0rem 2rem;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+/* main title */
+
+.main_title h1{
+    display: inline-block;
+    font-size: 2rem;
+    border-bottom: 5px dotted black;
+    margin: 2rem auto;
+}
+
+/* top contents */
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.intro_face img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+h2.name{
+    font-size: 2rem;
+}
+
+h3.english_name{
+    font-size: 1rem;
+    border-bottom: 5px dotted black;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+/* policy */
+#policy{
+    padding-bottom: 2rem;
+}
+
+#policy h3{
+    margin-bottom: 1rem;
+}
+
+/* contact */
+.sns i{
+    font-size: 2rem;
+    margin: 1rem 1.5rem;
+}
+
+i.fa-twitter{
+    color: skyblue;
+}
+i.fa-facebook-f{
+    color: blue;
+}
+i.fa-instagram{
+    color: purple;
+}
+
+.line{
+    margin: 1rem auto;
+}
+.line img{
+    width: 150px;
+}
+
+footer{
+    margin-top: 2rem;
+    padding:0.5rem auto ;
+    border-top: 1px solid black;
+}
+
+@media screen and (min-width:768px){
+    section#main{
+        width: 50%;
+    
+    }
+
+    ul{
+        padding-left: 25%;
+    }
+
+    .t_left{
+        padding: 0 20%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    ul{
+        padding-left: 30%;
+    }
+}
